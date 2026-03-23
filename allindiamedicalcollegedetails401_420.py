@@ -15,13 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sri-aurobindo-institute-of-speech-and-hearing-indore-125963",
-  "https://www.shiksha.com/college/calcutta-institute-of-nursing-and-paramedical-science-v-i-p-road-kolkata-61903",
-  "https://www.shiksha.com/university/sai-tirupati-university-udaipur-65077",
-  "https://www.shiksha.com/college/a-l-n-rao-memorial-ayurvedic-medical-college-and-pg-centre-chikkamagaluru-87289",
-  "https://www.shiksha.com/college/azad-college-of-pharmacy-hyderabad-149451",
-  "https://www.shiksha.com/college/venkata-padmavathi-college-of-physiotherapy-tirupati-202115",
-  "https://www.shiksha.com/college/h-g-e-a-college-of-pharmacy-bokaro-steel-city-207599",
+  "https://www.shiksha.com/college/rvs-kumaran-arts-and-science-college-dindigul-75129",
+  "https://www.shiksha.com/college/shivajirao-pawar-college-of-pharmacy-ahmednagar-88631",
+  "https://www.shiksha.com/college/merchant-ayurved-college-mehsana-182233",
+  "https://www.shiksha.com/college/jhanvi-ayurveda-and-yoga-sansthan-haridwar-146143",
+  "https://www.shiksha.com/college/shree-krishna-college-of-pharmacy-sitapur-149007",
+  "https://www.shiksha.com/college/government-medical-college-thiruvallur-tamil-nadu-other-180715",
+  "https://www.shiksha.com/college/college-of-veterinary-science-tirupati-chittoor-188417",
+  "https://www.shiksha.com/college/emversity-school-of-hospitality-mumbai-sion-237026",
+  "https://www.shiksha.com/university/sant-gahira-guru-vishwavidyalaya-chhattisgarh-other-57063",
+  "https://www.shiksha.com/college/sri-siddhartha-pharmacy-college-krishna-60901",
+  "https://www.shiksha.com/college/p-a-college-of-pharmacy-mangalore-67787",
+  "https://www.shiksha.com/college/harivandana-college-rajkot-72151",
+  "https://www.shiksha.com/college/marian-college-idukki-73457",
+  "https://www.shiksha.com/college/smt-slt-institute-of-pharmaceutical-sciences-bilaspur-146533",
+  "https://www.shiksha.com/college/shri-krishna-pharmacy-college-rewa-147165",
+  "https://www.shiksha.com/college/mangala-college-of-para-medical-sciences-mangalore-186195",
+  "https://www.shiksha.com/college/vivekanandha-medical-care-hospital-namakkal-193971",
+  "https://www.shiksha.com/college/b-c-f-college-of-phsiotheraphy-kottayam-194699",
+  "https://www.shiksha.com/college/rk-institute-of-pharmacy-bareilly-148611",
+  "https://www.shiksha.com/college/ch-sughar-singh-pharmacy-college-uttar-pradesh-other-149123",
 ]
 
 
@@ -9230,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1881
+    c_count = 2101
 
     try:
         for base_url in BASE_URL:
