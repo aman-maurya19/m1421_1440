@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/rvs-kumaran-arts-and-science-college-dindigul-75129",
-  "https://www.shiksha.com/college/shivajirao-pawar-college-of-pharmacy-ahmednagar-88631",
-  "https://www.shiksha.com/college/merchant-ayurved-college-mehsana-182233",
-  "https://www.shiksha.com/college/jhanvi-ayurveda-and-yoga-sansthan-haridwar-146143",
-  "https://www.shiksha.com/college/shree-krishna-college-of-pharmacy-sitapur-149007",
-  "https://www.shiksha.com/college/government-medical-college-thiruvallur-tamil-nadu-other-180715",
-  "https://www.shiksha.com/college/college-of-veterinary-science-tirupati-chittoor-188417",
-  "https://www.shiksha.com/college/emversity-school-of-hospitality-mumbai-sion-237026",
-  "https://www.shiksha.com/university/sant-gahira-guru-vishwavidyalaya-chhattisgarh-other-57063",
-  "https://www.shiksha.com/college/sri-siddhartha-pharmacy-college-krishna-60901",
-  "https://www.shiksha.com/college/p-a-college-of-pharmacy-mangalore-67787",
-  "https://www.shiksha.com/college/harivandana-college-rajkot-72151",
-  "https://www.shiksha.com/college/marian-college-idukki-73457",
-  "https://www.shiksha.com/college/smt-slt-institute-of-pharmaceutical-sciences-bilaspur-146533",
-  "https://www.shiksha.com/college/shri-krishna-pharmacy-college-rewa-147165",
-  "https://www.shiksha.com/college/mangala-college-of-para-medical-sciences-mangalore-186195",
-  "https://www.shiksha.com/college/vivekanandha-medical-care-hospital-namakkal-193971",
-  "https://www.shiksha.com/college/b-c-f-college-of-phsiotheraphy-kottayam-194699",
-  "https://www.shiksha.com/college/rk-institute-of-pharmacy-bareilly-148611",
-  "https://www.shiksha.com/college/ch-sughar-singh-pharmacy-college-uttar-pradesh-other-149123",
+  "https://www.shiksha.com/college/shri-shri-amrutanand-mahayogeshwar-d-pharmacy-college-jalna-236786",
+  "https://www.shiksha.com/college/snbp-college-of-pharmacy-chikhali-maharashtra-other-236792",
+  "https://www.shiksha.com/college/ashok-nilay-prabhabasu-college-of-pharmacy-west-bengal-other-237240",
+  "https://www.shiksha.com/college/fortis-hospital-mohali-240686",
+  "https://www.shiksha.com/college/wockhardt-hospital-mumbai-241912",
+  "https://www.shiksha.com/college/st-anns-college-of-pharamacy-prakasam-60997",
+  "https://www.shiksha.com/college/bellamkonda-institute-of-technology-and-science-andhra-pradesh-other-61203",
+  "https://www.shiksha.com/college/abdul-ahad-azad-memorial-college-cluster-university-srinagar-64771",
+  "https://www.shiksha.com/college/parmarth-college-of-pharmacy-ghaziabad-65435",
+  "https://www.shiksha.com/college/dr-h-l-thimmegowda-college-of-pharmacy-ramanagara-67745",
+  "https://www.shiksha.com/college/scses-dhavantari-ayurvedic-medical-college-belgaum-87269",
+  "https://www.shiksha.com/college/bharti-institute-of-pharmaceutical-sciences-sriganaganagar-88375",
+  "https://www.shiksha.com/college/bhartiya-education-society-institute-of-pharmacy-raigad-89047",
+  "https://www.shiksha.com/college/arogyam-hospital-and-educational-trust-institutions-garhwa-207577",
+  "https://www.shiksha.com/college/grd-college-of-pharmacy-thiruvallur-208233",
+  "https://www.shiksha.com/college/shantha-college-of-allied-health-sciences-chikballpura-210479",
+  "https://www.shiksha.com/college/state-unani-medical-college-hakim-ahmed-husain-republic-day-memorial-hospital-prayagraj-229337",
+  "https://www.shiksha.com/college/madhuban-pharmacy-college-jodhpur-236902",
+  "https://www.shiksha.com/college/lakshya-institute-of-management-and-information-technology-shahjahanpur-237010",
+  "https://www.shiksha.com/college/mahayogi-pilot-baba-institute-nainital-240302",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2101
+    c_count = 3321
 
     try:
         for base_url in BASE_URL:
