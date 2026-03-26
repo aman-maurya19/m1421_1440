@@ -35,6 +35,8 @@ BASE_URL = [
   "https://www.shiksha.com/college/madhuban-pharmacy-college-jodhpur-236902",
   "https://www.shiksha.com/college/lakshya-institute-of-management-and-information-technology-shahjahanpur-237010",
   "https://www.shiksha.com/college/mahayogi-pilot-baba-institute-nainital-240302",
+  "https://www.shiksha.com/college/avr-educational-and-fire-safety-institute-lucknow-29947",
+  "https://www.shiksha.com/college/ukaat-consultancy-and-services-pvt-ltd-sinhagad-road-pune-51973",
 ]
 
 
